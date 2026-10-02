@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Civic Bridge</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
+
+<div class="background">
+
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+    <div class="bg-orb orb-three"></div>
+
+</div>
+
+
+
+<!-- =====================================================
+     LANDING PAGE
+===================================================== -->
+
+<div
+    id="landingPage"
+    class="page active"
+>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div
+                class="brand-symbol logo-preview-trigger"
+                role="button"
+                tabindex="0"
+                aria-label="Preview Civic Bridge logo"
+                onclick="openLogoPreview()"
+                onkeydown="handleLogoPreviewKey(event)"
+            >
+
+                <img
+                    src="assets/civic-bridge-logo.png"
+                    alt="Civic Bridge logo"
+                >
+
+            </div>
+
+            <div class="brand-text">
+
+                <strong>
+                    Civic Bridge
+                </strong>
+
+                <small>
+                    Student Portal
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <nav class="nav-links">
+
+            <a href="#howItWorks">
+                How it works
+            </a>
+
+            <a href="#features">
+                Features
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <button
+                class="nav-access"
+                onclick="openAccess()"
+            >
+                Access Portal →
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- HERO -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+
+                    <span class="status-dot"></span>
+
+                    DIGITAL ACCESS TO STUDENT WELFARE SCHEMES
+
+                </div>
+
+
+                <h1>
+
+                    Find the support
+                    <span>
+                        you may be eligible for.
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Civic Bridge helps students discover relevant
+                    government education and financial-aid schemes,
+                    understand eligibility, prepare documents and
+                    navigate the application process.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-btn"
+                        onclick="openAccess()"
+                    >
+
+                        Access Portal
+
+                        <span>→</span>
+
+                    </button>
+
+
+                    <a
+                        href="#howItWorks"
+                        class="secondary-btn"
+                    >
+
+                        See How It Works
+
+                    </a>
+
+                </div>
+
+
+                <div class="hero-stats">
+
+                    <div>
+
+                        <strong>
+                            1,240+
+                        </strong>
+
+                        <span>
+                            Students assisted
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-divider"></div>
+
+
+                    <div>
+
+                        <strong>
+                            680+
+                        </strong>
+
+                        <span>
+                            Potential matches
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat-divider"></div>
+
+
+                    <div>
+
+                        <strong>
+                            24/7
+                        </strong>
+
+                        <span>
+                            Information access
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual">
+
+                <div class="ai-card">
+
+                    <div class="ai-card-header">
+
+                        <div>
+
+                            <span class="small-label">
+                                CIVIC BRIDGE AI
+                            </span>
+
+                            <h3>
+                                Your path to support
+                            </h3>
+
+                        </div>
+
+
+                        <div class="ai-status">
+
+                            <span></span>
+
+                            Active
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="ai-flow">
+
+
+                        <div class="flow-step">
+
+                            <div class="flow-number">
+                                01
+                            </div>
+
+                            <div class="flow-icon">
+                                ?
+                            </div>
+
+                            <div class="flow-content">
+
+                                <strong>
+                                    Tell us your situation
+                                </strong>
+
+                                <span>
+                                    Education, income & location
+                                </span>
+
+                            </div>
+
+                            <b class="check">
+                                ✓
+                            </b>
+
+                        </div>
+
+
+                        <div class="flow-line"></div>
+
+
+                        <div class="flow-step">
+
+                            <div class="flow-number">
+                                02
+                            </div>
+
+                            <div class="flow-icon ai">
+                                ✦
+                            </div>
+
+                            <div class="flow-content">
+
+                                <strong>
+                                    AI understands your need
+                                </strong>
+
+                                <span>
+                                    Profile & eligibility analysis
+                                </span>
+
+                            </div>
+
+                            <b class="processing">
+                                ●
+                            </b>
+
+                        </div>
+
+
+                        <div class="flow-line"></div>
+
+
+                        <div class="flow-step">
+
+                            <div class="flow-number">
+                                03
+                            </div>
+
+                            <div class="flow-icon">
+                                ✓
+                            </div>
+
+                            <div class="flow-content">
+
+                                <strong>
+                                    Potential schemes
+                                </strong>
+
+                                <span>
+                                    Relevant government support
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="flow-line"></div>
+
+
+                        <div class="flow-step">
+
+                            <div class="flow-number">
+                                04
+                            </div>
+
+                            <div class="flow-icon">
+                                →
+                            </div>
+
+                            <div class="flow-content">
+
+                                <strong>
+                                    Application roadmap
+                                </strong>
+
+                                <span>
+                                    Documents & next steps
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="potential-match">
+
+                        <div class="match-icon">
+                            ₹
+                        </div>
+
+                        <div>
+
+                            <span>
+                                POTENTIAL MATCH
+                            </span>
+
+                            <strong>
+                                Higher Education Support
+                            </strong>
+
+                        </div>
+
+                        <b>
+                            92%
+                        </b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- HOW IT WORKS -->
+
+        <section
+            class="section"
+            id="howItWorks"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    HOW IT WORKS
+                </span>
+
+                <h2>
+                    From a simple request
+                    <br>
+                    to a clear pathway.
+                </h2>
+
+                <p>
+                    Civic Bridge simplifies the journey between
+                    students and government support programs.
+                </p>
+
+            </div>
+
+
+            <div class="steps-grid">
+
+
+                <div class="step-card">
+
+                    <div class="step-top">
+
+                        <span>
+                            01
+                        </span>
+
+                        <div class="step-icon">
+                            ⌕
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Describe your need
+                    </h3>
+
+                    <p>
+                        Tell Civic Bridge what kind of educational
+                        or financial support you are looking for.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-top">
+
+                        <span>
+                            02
+                        </span>
+
+                        <div class="step-icon">
+                            ✦
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        AI finds potential matches
+                    </h3>
+
+                    <p>
+                        Your information is compared against scheme
+                        eligibility rules maintained by administrators.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-top">
+
+                        <span>
+                            03
+                        </span>
+
+                        <div class="step-icon">
+                            ✓
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Understand what to do
+                    </h3>
+
+                    <p>
+                        Get a document checklist and a step-by-step
+                        application roadmap.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FEATURES -->
+
+        <section
+            class="section"
+            id="features"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    BUILT FOR CLARITY
+                </span>
+
+                <h2>
+                    Everything in one place.
+                </h2>
+
+            </div>
+
+
+            <div class="features-grid">
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        AI-powered scheme discovery
+                    </h3>
+
+                    <p>
+                        Describe your circumstances naturally instead
+                        of searching through complicated government websites.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ▣
+                    </div>
+
+                    <h3>
+                        Personalized document checklist
+                    </h3>
+
+                    <p>
+                        See which documents are commonly required
+                        for each potential scheme.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        →
+                    </div>
+
+                    <h3>
+                        Application guidance
+                    </h3>
+
+                    <p>
+                        Follow a simple roadmap before continuing
+                        to the relevant official application portal.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ?
+                    </div>
+
+                    <h3>
+                        AI Assistant
+                    </h3>
+
+                    <p>
+                        Ask questions about schemes, documents and
+                        application steps in simple language.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ◷
+                    </div>
+
+                    <h3>
+                        Application tracking
+                    </h3>
+
+                    <p>
+                        Keep track of your documents, applications
+                        and next steps.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ◉
+                    </div>
+
+                    <h3>
+                        Privacy-conscious insights
+                    </h3>
+
+                    <p>
+                        Help institutions understand common support
+                        barriers through aggregated patterns.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ABOUT -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="about-card">
+
+                <div>
+
+                    <span class="section-label">
+                        CIVIC BRIDGE
+                    </span>
+
+                    <h2>
+                        Connecting students with pathways
+                        to government support.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-note">
+
+                    <span>
+                        ⓘ
+                    </span>
+
+                    <p>
+                        Civic Bridge provides potential scheme
+                        matches based on available eligibility
+                        information. Final eligibility and approval
+                        are determined by the relevant authority.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div>
+
+            <strong>
+                Civic Bridge
+            </strong>
+
+            <p>
+                Connecting students with pathways to government support.
+            </p>
+
+        </div>
+
+
+        <span>
+            Hackathon Prototype • 2026
+        </span>
+
+    </footer>
+
+</div>
+
+
+
+<!-- =====================================================
+     ACCESS PORTAL
+===================================================== -->
+
+<div
+    id="accessOverlay"
+    class="overlay"
+>
+
+
+    <div class="access-modal">
+
+
+        <button
+            class="close-btn"
+            onclick="closeAccess()"
+        >
+            ×
+        </button>
+
+
+
+        <!-- ROLE SELECTION -->
+
+        <div
+            id="roleSelection"
+        >
+
+            <div class="modal-heading">
+
+                <span class="section-label">
+                    PORTAL ACCESS
+                </span>
+
+                <h2>
+                    Welcome to Civic Bridge.
+                </h2>
+
+                <p>
+                    Choose how you want to access the platform.
+                </p>
+
+            </div>
+
+
+            <div class="role-options">
+
+
+                <!-- STUDENT -->
+
+                <button
+                    type="button"
+                    class="role-option"
+                    onclick="selectRole('student')"
+                >
+
+                    <div class="role-icon student-role">
+                        S
+                    </div>
+
+
+                    <div class="role-text">
+
+                        <strong>
+                            Student
+                        </strong>
+
+                        <span>
+                            Discover schemes and manage
+                            your support journey.
+                        </span>
+
+                    </div>
+
+
+                    <span class="role-arrow">
+                        →
+                    </span>
+
+                </button>
+
+
+
+                <!-- ADMIN -->
+
+                <button
+                    type="button"
+                    class="role-option"
+                    onclick="selectRole('admin')"
+                >
+
+                    <div class="role-icon admin-role">
+                        A
+                    </div>
+
+
+                    <div class="role-text">
+
+                        <strong>
+                            Administrator
+                        </strong>
+
+                        <span>
+                            Manage schemes, eligibility rules
+                            and platform insights.
+                        </span>
+
+                    </div>
+
+
+                    <span class="role-arrow">
+                        →
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+            <div class="security-note">
+
+                <span>
+                    🔒
+                </span>
+
+                <span>
+                    Demo environment — no real personal
+                    information is collected.
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- STUDENT LOGIN -->
+
+        <div
+            id="studentLogin"
+            class="login-form hidden"
+        >
+
+
+            <button
+                type="button"
+                class="back-role"
+                onclick="backToRoles()"
+            >
+                ← Back to account type
+            </button>
+
+
+            <div class="selected-role">
+
+                <div class="role-icon student-role">
+                    S
+                </div>
+
+
+                <div>
+
+                    <span>
+                        STUDENT PORTAL
+                    </span>
+
+                    <strong>
+                        Student Sign In
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- COLLEGE MAIL -->
+
+            <div class="input-group">
+
+                <label for="studentEmail">
+                    College Mail ID
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>
+                        ✉
+                    </span>
+
+                    <input
+                        id="studentEmail"
+                        type="email"
+                        placeholder="yourname@college.edu"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FULL NAME -->
+
+            <div class="input-group">
+
+                <label for="studentName">
+                    Full Name
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>
+                        ◯
+                    </span>
+
+                    <input
+                        id="studentName"
+                        type="text"
+                        placeholder="Enter your full name"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PASSWORD -->
+
+            <div class="input-group">
+
+                <label for="studentPassword">
+                    Password
+                </label>
+
+                <div class="input-wrapper password-wrapper">
+
+                    <span>
+                        ●
+                    </span>
+
+                    <input
+                        id="studentPassword"
+                        type="password"
+                        placeholder="Enter your password"
+                    >
+
+                    <button
+                        type="button"
+                        onclick="togglePassword(
+                            'studentPassword',
+                            this
+                        )"
+                    >
+                        Show
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <button
+                type="button"
+                class="login-btn"
+                onclick="studentLogin()"
+            >
+
+                Continue to Student Portal
+
+                <span>
+                    →
+                </span>
+
+            </button>
+
+
+            <p class="demo-note">
+                🔒 Demo environment — no real personal
+                information is collected.
+            </p>
+
+        </div>
+
+
+
+        <!-- ADMIN LOGIN -->
+
+        <div
+            id="adminLogin"
+            class="login-form hidden"
+        >
+
+
+            <button
+                type="button"
+                class="back-role"
+                onclick="backToRoles()"
+            >
+                ← Back to account type
+            </button>
+
+
+            <div class="selected-role">
+
+                <div class="role-icon admin-role">
+                    A
+                </div>
+
+
+                <div>
+
+                    <span>
+                        ADMINISTRATION
+                    </span>
+
+                    <strong>
+                        Administrator Sign In
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ADMIN MAIL -->
+
+            <div class="input-group">
+
+                <label for="adminEmail">
+                    Admin Mail
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>
+                        ✉
+                    </span>
+
+                    <input
+                        id="adminEmail"
+                        type="email"
+                        placeholder="admin@civicbridge.org"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ADMIN NAME -->
+
+            <div class="input-group">
+
+                <label for="adminName">
+                    Full Name
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span>
+                        ◯
+                    </span>
+
+                    <input
+                        id="adminName"
+                        type="text"
+                        placeholder="Enter administrator name"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ADMIN PASSWORD -->
+
+            <div class="input-group">
+
+                <label for="adminPassword">
+                    Password
+                </label>
+
+                <div class="input-wrapper password-wrapper">
+
+                    <span>
+                        ●
+                    </span>
+
+                    <input
+                        id="adminPassword"
+                        type="password"
+                        placeholder="Enter your password"
+                    >
+
+                    <button
+                        type="button"
+                        onclick="togglePassword(
+                            'adminPassword',
+                            this
+                        )"
+                    >
+                        Show
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <button
+                type="button"
+                class="login-btn admin-login-btn"
+                onclick="adminLogin()"
+            >
+
+                Continue to Admin Portal
+
+                <span>
+                    →
+                </span>
+
+            </button>
+
+
+            <p class="demo-note">
+                🔒 Demo environment — no real personal
+                information is collected.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     STUDENT PORTAL
+===================================================== -->
+
+<div
+    id="studentPortal"
+    class="portal-page hidden"
+>
+
+
+    <header class="portal-topbar">
+
+        <div class="portal-brand">
+
+            <div
+                class="brand-symbol small logo-preview-trigger"
+                role="button"
+                tabindex="0"
+                aria-label="Preview Civic Bridge logo"
+                onclick="openLogoPreview()"
+                onkeydown="handleLogoPreviewKey(event)"
+            >
+
+                <img
+                    src="assets/civic-bridge-logo.png"
+                    alt="Civic Bridge logo"
+                >
+
+            </div>
+
+            <strong>
+                Civic Bridge
+            </strong>
+
+        </div>
+
+
+        <button
+            onclick="logout()"
+            class="logout-btn"
+        >
+            ← Return to Civic Bridge
+        </button>
+
+    </header>
+
+
+
+    <main class="portal-main">
+
+        <div class="portal-welcome">
+
+            <span>
+                STUDENT PORTAL
+            </span>
+
+            <h1 id="studentWelcome">
+                Welcome to Civic Bridge.
+            </h1>
+
+            <p>
+                Discover potential government support
+                and manage your application journey.
+            </p>
+
+        </div>
+
+
+        <div class="dashboard-grid">
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-icon">
+                    ✦
+                </div>
+
+                <span>
+                    SCHEME DISCOVERY
+                </span>
+
+                <h3>
+                    Find Support
+                </h3>
+
+                <p>
+                    Discover government schemes that
+                    may match your situation.
+                </p>
+
+                <button onclick="studentFeature('scheme')">
+                    Explore →
+                </button>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-icon">
+                    ✓
+                </div>
+
+                <span>
+                    DOCUMENTS
+                </span>
+
+                <h3>
+                    Document Checklist
+                </h3>
+
+                <p>
+                    Keep track of the documents required
+                    for your potential schemes.
+                </p>
+
+                <button onclick="studentFeature('documents')">
+                    View Documents →
+                </button>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-icon">
+                    ◷
+                </div>
+
+                <span>
+                    APPLICATIONS
+                </span>
+
+                <h3>
+                    Track Progress
+                </h3>
+
+                <p>
+                    Follow your application journey and
+                    see your next steps.
+                </p>
+
+                <button onclick="studentFeature('applications')">
+                    View Progress →
+                </button>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-icon">
+                    ?
+                </div>
+
+                <span>
+                    AI ASSISTANT
+                </span>
+
+                <h3>
+                    Ask Civic Bridge
+                </h3>
+
+                <p>
+                    Get simple explanations about schemes,
+                    documents and applications.
+                </p>
+
+                <button onclick="openAIChat()">
+                    Ask AI →
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="portal-notice">
+
+            <span>
+                ⓘ
+            </span>
+
+            <p>
+                Civic Bridge provides potential matches based
+                on available eligibility information. Final
+                eligibility and approval are determined by
+                the relevant authority.
+            </p>
+
+        </div>
+
+    </main>
+
+    <section id="studentSchemeView" class="portal-subview hidden" data-student-view="scheme"></section>
+    <section id="studentDocumentsView" class="portal-subview hidden" data-student-view="documents"></section>
+    <section id="studentApplicationsView" class="portal-subview hidden" data-student-view="applications"></section>
+    <section id="studentSchemeDetailsView" class="portal-subview hidden" data-student-view="scheme-details"></section>
+    <section id="studentDocumentGuideView" class="portal-subview hidden" data-student-view="document-guide"></section>
+    <section id="studentApplicationDetailsView" class="portal-subview hidden" data-student-view="application-details"></section>
+
+</div>
+
+
+
+<!-- =====================================================
+     CIVIC BRIDGE LOGO PREVIEW
+===================================================== -->
+
+<div
+    id="logoPreviewOverlay"
+    class="logo-preview-overlay"
+    aria-hidden="true"
+>
+
+    <div
+        class="logo-preview-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Civic Bridge logo preview"
+    >
+
+        <button
+            type="button"
+            class="logo-preview-close"
+            aria-label="Close logo preview"
+            title="Close logo preview"
+            onclick="closeLogoPreview()"
+        >
+            ×
+        </button>
+
+        <img
+            src="assets/civic-bridge-logo.png"
+            alt="Civic Bridge logo"
+        >
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     ADMIN PORTAL
+===================================================== -->
+
+<div
+    id="adminPortal"
+    class="portal-page hidden"
+>
+<!-- =====================================================
+     CIVIC BRIDGE AI CHAT
+===================================================== -->
+
+<div
+    id="aiChatOverlay"
+    class="ai-chat-overlay"
+    aria-hidden="true"
+>
+
+    <section
+        class="ai-chat-window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="aiChatTitle"
+    >
+
+        <header class="ai-chat-header">
+
+            <div class="ai-chat-heading">
+
+                <div class="ai-chat-avatar" aria-hidden="true">✦</div>
+
+                <div>
+                    <h2 id="aiChatTitle">Civic Bridge AI</h2>
+
+                    <span class="ai-chat-status">
+                        <span aria-hidden="true"></span>
+                        Online
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="ai-chat-actions">
+
+                <button type="button" class="ai-chat-clear" onclick="clearChat()" title="Clear chat" aria-label="Clear chat">↻</button>
+                <button type="button" class="ai-chat-close" onclick="closeAIChat()" title="Close Civic Bridge AI" aria-label="Close Civic Bridge AI">×</button>
+
+            </div>
+
+        </header>
+
+        <div id="aiChatMessages" class="ai-chat-messages" aria-live="polite"></div>
+
+        <div class="ai-chat-suggestions" aria-label="Suggested questions">
+            <button type="button" onclick="sendSuggestion(this.textContent)">I need help paying college fees</button>
+            <button type="button" onclick="sendSuggestion(this.textContent)">What documents do I need?</button>
+            <button type="button" onclick="sendSuggestion(this.textContent)">Find schemes for me</button>
+            <button type="button" onclick="sendSuggestion(this.textContent)">How does eligibility work?</button>
+        </div>
+
+        <form class="ai-chat-composer" onsubmit="event.preventDefault(); sendAIMessage(); return false;">
+            <textarea id="aiChatInput" rows="1" placeholder="Ask Civic Bridge AI anything..." aria-label="Message Civic Bridge AI" onkeydown="handleAIChatKey(event)"></textarea>
+            <button type="submit" class="ai-chat-send" title="Send message" aria-label="Send message">↑</button>
+        </form>
+
+        <p class="ai-chat-disclaimer">Civic Bridge AI provides guidance, not guaranteed eligibility.</p>
+
+    </section>
+
+</div>
+
+
+    <header class="portal-topbar">
+
+        <div class="portal-brand">
+
+            <div
+                class="brand-symbol admin-symbol small logo-preview-trigger"
+                role="button"
+                tabindex="0"
+                aria-label="Preview Civic Bridge logo"
+                onclick="openLogoPreview()"
+                onkeydown="handleLogoPreviewKey(event)"
+            >
+
+                <img
+                    src="assets/civic-bridge-logo.png"
+                    alt="Civic Bridge logo"
+                >
+
+            </div>
+
+            <strong>
+                Civic Bridge
+            </strong>
+
+        </div>
+
+
+        <button
+            onclick="logout()"
+            class="logout-btn"
+        >
+            ← Return to Civic Bridge
+        </button>
+
+    </header>
+
+
+
+    <main id="adminDashboardView" class="portal-main">
+
+        <div class="portal-welcome">
+
+            <span>
+                ADMINISTRATION
+            </span>
+
+            <h1 id="adminWelcome">
+                Administration Portal
+            </h1>
+
+            <p>
+                Manage government schemes, eligibility
+                information and platform insights.
+            </p>
+
+        </div>
+
+
+        <div class="admin-stats">
+
+
+            <div class="admin-stat">
+
+                <span>
+                    STUDENTS ASSISTED
+                </span>
+
+                <strong>
+                    1,240
+                </strong>
+
+                <small>
+                    Platform users
+                </small>
+
+            </div>
+
+
+            <div class="admin-stat">
+
+                <span>
+                    SCHEME MATCHES
+                </span>
+
+                <strong>
+                    680
+                </strong>
+
+                <small>
+                    Potential matches
+                </small>
+
+            </div>
+
+
+            <div class="admin-stat">
+
+                <span>
+                    APPLICATIONS STARTED
+                </span>
+
+                <strong>
+                    420
+                </strong>
+
+                <small>
+                    Applications
+                </small>
+
+            </div>
+
+
+            <div class="admin-stat">
+
+                <span>
+                    COMPLETED
+                </span>
+
+                <strong>
+                    250
+                </strong>
+
+                <small>
+                    Completed journeys
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="admin-actions">
+
+
+            <div class="admin-action-card">
+
+                <div class="dashboard-icon">
+                    +
+                </div>
+
+                <h3>
+                    Scheme Management
+                </h3>
+
+                <p>
+                    Add and maintain government scheme
+                    information and eligibility conditions.
+                </p>
+
+                <button onclick="adminFeature('scheme-management')">
+                    Manage Schemes →
+                </button>
+
+            </div>
+
+
+            <div class="admin-action-card">
+
+                <div class="dashboard-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Eligibility Rules
+                </h3>
+
+                <p>
+                    Configure education, income, location
+                    and other eligibility conditions.
+                </p>
+
+                <button onclick="adminFeature('eligibility-rules')">
+                    Configure Rules →
+                </button>
+
+            </div>
+
+
+            <div class="admin-action-card">
+
+                <div class="dashboard-icon">
+                    ◉
+                </div>
+
+                <h3>
+                    Platform Insights
+                </h3>
+
+                <p>
+                    View aggregated patterns showing where
+                    students face application difficulties.
+                </p>
+
+                <button onclick="adminFeature('problem-insights')">
+                    View Analytics →
+                </button>
+
+            </div>
+
+
+            <div
+                class="admin-action-card dropoff-action-card"
+                role="button"
+                tabindex="0"
+                onclick="openDropoffAnalytics()"
+                onkeydown="handleDropoffCardKey(event)"
+            >
+
+                <div class="dashboard-icon dropoff-icon">
+                    ◌
+                </div>
+
+                <h3>
+                    Drop-off Analytics
+                </h3>
+
+                <p>
+                    Understand where students face friction
+                    during the scheme discovery and application journey.
+                </p>
+
+                <button
+                    type="button"
+                    onclick="event.stopPropagation(); openDropoffAnalytics()"
+                >
+                    View Analytics →
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="portal-notice">
+
+            <span>
+                🔒
+            </span>
+
+            <p>
+                Administrative insights are designed to use
+                aggregated patterns rather than unnecessary
+                individual student information.
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <main
+        id="dropoffAnalyticsView"
+        class="dropoff-analytics-page hidden"
+        aria-labelledby="dropoffAnalyticsTitle"
+    >
+
+        <button
+            type="button"
+            class="dropoff-back"
+            onclick="showAdminDashboard()"
+        >
+            ← Back to Administrator Portal
+        </button>
+
+        <header class="dropoff-page-header">
+            <span class="section-label">ANALYTICS</span>
+            <h1 id="dropoffAnalyticsTitle">Where users face friction</h1>
+            <p>Aggregated drop-off patterns can help improve scheme information and application guidance.</p>
+            <small>Illustrative demo data — not real government statistics.</small>
+        </header>
+
+        <div class="dropoff-content-grid">
+
+            <section class="dropoff-chart-card">
+                <span class="section-label">DROP-OFF RATE</span>
+                <h2>Journey friction</h2>
+
+                <div id="dropoffBars" class="dropoff-bars"></div>
+            </section>
+
+            <aside class="dropoff-insight-card">
+                <span class="section-label">SYSTEM INSIGHT</span>
+                <strong class="dropoff-insight-number">32%</strong>
+                <h2>Document collection is a major friction point.</h2>
+                <p>A significant portion of observed users stop around the document-preparation stage.</p>
+
+                <div class="dropoff-recommendation">
+                    <span>Suggested action</span>
+                    <strong>Consider improving document explanations, examples and preparation guidance.</strong>
+                </div>
+            </aside>
+
+        </div>
+
+    </main>
+
+    <section id="adminSchemeManagementView" class="portal-subview hidden" data-admin-view="scheme-management"></section>
+    <section id="adminSchemeDetailView" class="portal-subview hidden" data-admin-view="scheme-detail"></section>
+    <section id="adminEligibilityView" class="portal-subview hidden" data-admin-view="eligibility-rules"></section>
+    <section id="adminApplicationsView" class="portal-subview hidden" data-admin-view="applications"></section>
+    <section id="adminProblemInsightsView" class="portal-subview hidden" data-admin-view="problem-insights"></section>
+    <section id="adminPlatformInsightsView" class="portal-subview hidden" data-admin-view="platform-insights"></section>
+    <section id="adminSchemeFormView" class="portal-subview hidden" data-admin-view="scheme-form"></section>
+    <section id="adminSchemeEditView" class="portal-subview hidden" data-admin-view="scheme-edit"></section>
+    <section id="adminRuleEditView" class="portal-subview hidden" data-admin-view="rule-edit"></section>
+    <section id="adminApplicationDetailView" class="portal-subview hidden" data-admin-view="application-detail"></section>
+
+</div>
+
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div
+    id="toast"
+    class="toast"
+>
+
+    <div class="toast-icon">
+        ✓
+    </div>
+
+
+    <div>
+
+        <strong id="toastTitle">
+            Success
+        </strong>
+
+        <p id="toastMessage">
+            Action completed.
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

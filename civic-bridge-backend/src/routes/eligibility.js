@@ -1,0 +1,8 @@
+const express = require('express');
+const eligibilityController = require('../controllers/eligibilityController');
+
+const router = express.Router();
+
+router.post('/check-match', eligibilityController.checkMatch);
+
+module.exports = router;

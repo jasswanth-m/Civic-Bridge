@@ -1,0 +1,106 @@
+{
+  "info": {
+    "name": "Civic Bridge API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/api/health"
+      }
+    },
+    {
+      "name": "Register Student",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/api/auth/register",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"student@college.edu\",\n  \"password\": \"SecurePass123!\",\n  \"full_name\": \"John Doe\",\n  \"college_id\": \"20240001\"\n}"
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Login Student",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/api/auth/login",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"student@college.edu\",\n  \"password\": \"SecurePass123!\"\n}"
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Create Student Profile",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/api/student/profile",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{access_token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"course\": \"B.Tech Computer Science\",\n  \"year_of_study\": 2,\n  \"state\": \"Tamil Nadu\",\n  \"annual_family_income\": 200000,\n  \"category\": \"OBC\",\n  \"disability_status\": false\n}"
+        }
+      }
+    },
+    {
+      "name": "Get All Schemes",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/api/schemes"
+      }
+    },
+    {
+      "name": "Check Eligibility Match",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/api/eligibility/check-match",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"course\": \"B.Tech\",\n  \"year_of_study\": 2,\n  \"state\": \"Tamil Nadu\",\n  \"annual_family_income\": 200000,\n  \"category\": \"OBC\",\n  \"disability_status\": false\n}"
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3000",
+      "type": "string"
+    },
+    {
+      "key": "access_token",
+      "value": "",
+      "type": "string"
+    }
+  ]
+}
